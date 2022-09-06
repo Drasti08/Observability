@@ -11,5 +11,7 @@ scrape_configs:
     static_configs:
       - targets:
           - 'prometheus:9090' 
-          - 'node-exporter:9100'            
+          - 'node-exporter:9100'  
+          - 'redis-exporter:9121'  
+          - 'postgres-exporter:9187'        
           
